@@ -1,0 +1,87 @@
+#account-wrapper{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+
+#account-wrapper a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+#account-wrapper a {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #3366cc;
+}
+#account-wrapper a:link {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+#account-wrapper a:hover {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #3366cc;
+}
+#account-wrapper a:active {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+/*Reset Password Change*/
+.field-wrapper{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+.fieldTitle{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#password-wrapper, #priviledge-wrapper, #priviledge-wrapper{display: table; margin: auto;}
+
+.acct-row{display: table-row;}
+
+.title-cell{
+	font-family: Arial,sans-serif;
+	display: table-cell;
+	color: #333333;
+	text-align: right;
+	font-size: 14px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+
+.content-cell{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	display: table-cell;
+	font-size: 13px;
+	text-align: left;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+
+.regfield{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+div.pass-title{width: 150px;}
+div.pass-con{width: 220px; border-right: 1px solid #ccc;}

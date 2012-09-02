@@ -1,0 +1,347 @@
+/*Whole page design*/
+#opdHolder{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+
+#opdHolder a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+#opdHolder a {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #3366cc;
+}
+#opdHolder a:link {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+#opdHolder a:hover {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #3366cc;
+}
+#opdHolder a:active {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+/*View Page*/
+#ptViewHolder{
+	font-family: Arial,sans-serif;
+	width: 100%;
+	margin: auto; 
+	position:relative;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.tblRecord table, .tblRecord, .tblRecord td, .tblRecord th{
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	padding: 5px 5px 5px 5px;
+	text-align:center;
+	font-family: Arial,sans-serif;
+}
+
+.tblRecord th{
+	background-color: #f5f5f5;
+	color: #dd4b39;
+	font-size: 14px;
+}
+
+.even{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	background-color: #f2f5f9;
+}
+
+.odd{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+}
+
+#pagination{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align:center;
+}
+
+#pagination a:hover{
+	text-decoration: none;
+}
+
+.numbers{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 2px 7px 2px 7px;
+	margin-right: 5px;
+}
+
+.numbers:hover{
+	background-color: #ebeffa;
+	border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+	color: #fff;
+	text-decoration: none;
+}
+
+.thisPage{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 2px 7px 2px 7px;
+	margin-right: 5px;
+	font-weight: bold;
+	background-color: #ebebeb;
+	
+}
+.next{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+.last{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+.previous{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.first{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.next:hover, .previous:hover, .first:hover, .last:hover{
+	background-color: #f1f1f1;
+	color: #fff;
+	text-decoration: none;
+	border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+}
+.inactiveNext{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	color: #ccc;
+	margin-left: 15px;
+}
+
+.inactiveLast{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	color: #ccc;
+	margin-left: 5px;
+}
+
+.inactivePrev{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 20px;
+	color: #ccc;
+	text-align: center;
+}
+
+.inactiveFirst{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 5px;
+	color: #ccc;
+	text-align: center;
+}
+
+.total{
+	padding-top: 10px;
+}
+
+/*Add Patient Page*/
+#ptformInfoHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto; 
+	position:relative;
+	margin-bottom: 20px;
+}
+
+#ptformInfoHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	color: #888888;
+	text-align:right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.tblAddPt table, .tblAddPt, .tblAddPt td, .tblAddPt th{
+	border-collapse:collapse;
+	text-align:center;
+	font-family: Arial,sans-serif;
+	border: 1px solid #ccc;
+}
+
+.tblAddPtRec table, .tblAddPtRec, .tblAddPtRec td{
+	border-collapse:collapse;
+	text-align:center;
+	font-family: Arial,sans-serif;
+	border: 1px solid #ccc;
+}
+
+td.addField:hover{
+	background: #ebeffa;
+}
+
+.addHeader{
+	background-color: #f5f5f5;
+	font-size: 14px;
+}
+
+.ptField{
+	font-family: Arial,sans-serif;
+	width: 190px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptFieldTxt{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	height: 50px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptBmonth{
+	font-family: Arial,sans-serif;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptBday{
+	font-family: Arial,sans-serif;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptByear{
+	font-family: Arial,sans-serif;
+	width: 60px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptAmPm{
+	font-family: Arial,sans-serif;
+	width: 70px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+/*Search Page*/
+#searchHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto; 
+	position:relative;
+	margin-bottom: 20px;
+}
+
+#searchForm label, #searchHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	color: #888888;
+	text-align:right;
+	margin-right: 5px;
+}
+
+.srchTable{
+	margin: auto;
+	width: 400px;
+}
+
+.srchTable table, .srchTable, .srchTable td{
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	font-family: Arial,sans-serif;
+}
+
+.srchHeader{
+	background-color: #f5f5f5;
+	font-size: 14px;
+}
+
+.srchTable tr:hover {
+	background: #ebeffa;
+}
+
+#searchResults{
+	font-family: Arial,sans-serif;
+	width: 100%;
+	margin: auto; 
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#searchForm{
+	font-family: Arial,sans-serif;
+	margin: auto; 
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.searchLink{
+	float: right;
+	cursor:pointer;
+}
+
+#searchHold{
+	margin: auto;
+	width: 60%;
+	display: none;
+}
+
+/******/
+tr.odd:hover{
+	background: #ebeffa;
+	cursor: pointer;
+}
+
+tr.even:hover{
+	background: #ebeffa;
+	cursor: pointer;
+}
+
+div.patient-field {
+	font-family: Arial,sans-serif;
+	padding: 5px;
+	position: relative;
+	overflow:hidden;
+}
+
+div.curFocus {
+	background: #ebeffa;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus { 
+    border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+    outline: none;
+}
+
+

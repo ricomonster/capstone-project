@@ -1,0 +1,188 @@
+.admissionHolder{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+
+.admissionHolder a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+.admissionHolder a {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #3366cc;
+}
+.admissionHolder a:link {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+.admissionHolder a:hover {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #3366cc;
+}
+.admissionHolder a:active {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+/**For Admission Page*/
+#ptAdmissionHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+#ptAdHolder{
+	display: table;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.rowHeader{
+	display: table-row;
+}
+
+#opdHeader, #nameHeader, #drHeader, #actionHeader, #roomHeader{
+	font-family: Arial,sans-serif;
+	display: table-cell;
+	background-color: #f5f5f5;
+	color: #dd4b39;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-right:none;
+	border-collapse: collapse;	
+}
+
+div.border-right{
+	border-right: 1px solid #ccc;
+}
+
+div.even{
+	background-color: #f2f5f9;
+}
+
+#opdHeader{width: 80px;}
+
+#nameHeader{width: 210px;}
+
+#roomHeader{width: 60px;}
+
+#drHeader{width: 190px;}
+
+#actionHeader{width: 100px;}
+
+.rowFields{
+	display: table-row;
+}
+
+.opdHolder, .nameHolder, .drHolder, .actionHolder, .roomHolder{
+	font-family: Arial,sans-serif;
+	display: table-cell;
+	font-size: 13px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+
+
+.odd:hover, .even:hover{
+	background: #ebeffa;
+	cursor: pointer;
+}
+
+/*Admitted Patient Page*/
+#ptAdmittedHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+#noContentHolder{
+	margin:auto;
+	width: 694px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+#msgNoCnt{
+	font-family: Arial,sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+/*Verify Admission Page*/
+#admHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+#formHolder{
+	display: table;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.rowHold{
+	display: table-row;
+}
+
+.cellTitle, .cellContent{
+	font-family: Arial,sans-serif;
+	display: table-cell;
+	font-size: 13px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+
+.cellTitle{
+	color: #888888;
+	font-size: 14px;
+	background-color: #f5f5f5;
+	text-align: right;
+}
+
+.cellContent{
+	width: 250px;
+	text-align: left;
+	border-right: 1px solid #ccc;
+}
+
+.cellContent:hover, #subRow:hover{
+	background: #ebeffa;
+}
+
+.drSelect{
+	width: 250px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.bdSelect{
+	width: 80px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+#subRow{
+	margin: auto;
+	width: 379px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: right;
+}

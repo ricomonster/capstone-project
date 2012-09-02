@@ -1,0 +1,93 @@
+#billHolder{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+
+#billHolder a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+#billHolder a {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #3366cc;
+}
+#billHolder a:link {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+#billHolder a:hover {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #3366cc;
+}
+#billHolder a:active {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+
+#form-holder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;	
+}
+
+#patient-info-holder, #bill-form-holder{
+	display: table;
+	margin: auto;
+}
+
+.bill-row{
+	display: table-row;
+}
+
+.cont-cell{
+	display: table-cell;
+	border: 1px solid #ccc;
+	border-right:none;
+	border-top: none;
+	border-collapse: collapse;	
+	color: #585858; font-size: 13px;
+	padding: 5px;
+}
+
+div.bill-title-name{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 100px; border-top:1px solid #ccc;}
+div.bill-title-age{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 40px; border-top:1px solid #ccc;}
+div.bill-title-sex{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 40px; border-top:1px solid #ccc;}
+
+div.bill-cont-name{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; border-top:1px solid #ccc;width: 295px;}
+div.bill-cont-age{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; border-top:1px solid #ccc; width: 100px;}
+div.bill-cont-sex{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; border-top:1px solid #ccc; border-right: 1px solid #ccc; width: 60px;}
+
+div.bill-title-room{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 70px;}
+div.bill-title-datetime{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 160px;}
+div.bill-title-membership{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 80px;}
+
+div.bill-cont-room{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; width: 30px;}
+div.bill-cont-datetime{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; width: 200px;}
+div.bill-cont-membership{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; border-right: 1px solid #ccc; width: 95px;}
+
+div.bill-title-date{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 40px; border-top:1px solid #ccc;}
+div.bill-title-time{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 40px; border-top:1px solid #ccc;}
+div.bill-title-nurseonduty{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 220px; border-top:1px solid #ccc;}
+
+div.bill-cont-date{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; width: 120px; border-top:1px solid #ccc;}
+div.bill-cont-time{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; width: 70px; border-top:1px solid #ccc;}
+div.bill-cont-nurseonduty{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; width: 150px; border-top:1px solid #ccc; border-right: 1px solid #ccc;}
+
+div.bill-title-finaldiag{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #888; font-size: 14px;text-align: left;padding: 5px; width: 130px; border-top:1px solid #ccc;}
+div.bill-cont-finaldiag{font-family: Arial,sans-serif; color: #585858; font-size: 13px;text-align: left;padding: 5px; width: 550px; border-top:1px solid #ccc; border-right: 1px solid #ccc;}
+
+div.bill-title-services{font-family: Arial,sans-serif; background-color: #f5f5f5; color: #dd4b39; font-size: 14px;text-align: center;padding: 5px; width: 210px; font-weight: bold; border-top:1px solid #ccc;}
+div.bill-title-actual{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #dd4b39; font-size: 14px;text-align: center;padding: 5px; width: 150px; font-weight: bold; border-top:1px solid #ccc;}
+div.bill-title-philhealth{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #dd4b39; font-size: 14px;text-align: center; font-weight: bold;padding: 5px; width: 150px; border-top:1px solid #ccc;}
+div.bill-title-excess{font-family: Arial,sans-serif; background-color: #f5f5f5;color: #dd4b39; font-size: 14px;text-align: center; font-weight: bold;padding: 5px; width: 150px; border-top:1px solid #ccc; border-right: 1px solid #ccc;}
+
+.bill-field{width: 100%;height: 25px;border: 1px solid #d9d9d9;}

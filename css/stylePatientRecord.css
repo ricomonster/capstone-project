@@ -1,0 +1,239 @@
+#ptRecordHolder{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+/*Styles of Patient Information*/
+#infoHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	color: #888888;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.info{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+#infoHolder{
+	font-family: Arial,sans-serif;
+	width: 80%;
+	margin: auto; 
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.infoTable table, .infoTable, .infoTable td{
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	padding: 10px 10px 10px 10px;
+	font-family: Arial,sans-serif;
+}
+
+.infoHeader{
+	background-color: #f5f5f5;
+	font-size: 14px;
+}
+
+.infoTable tr:hover {
+	background: #ebeffa;
+}
+
+/*Styles for Patient Record Page*/
+#recordHolder{
+	font-family: Arial,sans-serif;
+	width: 80%;
+	margin: auto; 
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#recordHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	color: #888888;
+	text-align:right;
+	margin-right: 2px;
+}
+
+.rdHolder{
+	margin-bottom: 10px;	
+}
+
+#titleHolder{
+	border: 1px solid #ccc;
+	padding: 5px 5px 5px 5px;	
+	background-color: #f5f5f5;
+	color: #3366cc;
+	font-size: 14px
+}
+
+#titleHolder:hover{
+	text-decoration: underline;
+}
+
+.ptRecord{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: none;
+}
+
+.recTable table, .recTable, .recTable td{
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	padding: 10px 10px 10px 10px;
+	font-family: Arial,sans-serif;
+}
+
+.recHeader{
+	background-color: #f5f5f5;
+	font-size: 14px;
+}
+
+td.recField:hover { background: #ebeffa;}
+
+/*Styles for Patient Info and Add Patient Record Page*/
+#ptInfoHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto; 
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#ptInfoHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	color: #888888;
+	text-align:right;
+	margin-right: 2px;
+}
+
+.ptInfoTable table, .ptInfoTable, .ptInfoTable td{
+	border-collapse:collapse;
+	padding: 5px 5px 5px 5px;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	margin: auto;
+}
+
+td.infoField:hover { background: #ebeffa;}
+
+/*Styles of Add Patient Record*/
+#ptformHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto; 
+	position:relative;
+	margin-bottom: 20px;
+	color: #333333;
+}
+
+#ptformHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	color: #888888;
+	text-align:right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+div.patient-field {
+	font-family: Arial,sans-serif;
+	padding: 10px;
+	position: relative;
+	width: 310px;
+	overflow:hidden;
+}
+
+div.info-field {
+	font-family: Arial,sans-serif;
+	padding: 5px;
+	position: relative;
+	overflow:hidden;
+}
+
+div.curFocus {
+	background: #ebeffa;
+}
+
+.ptField{
+	font-family: Arial,sans-serif;
+	width: 190px;
+	height: 25px;
+	color: #333333;
+	border: 1px solid #d9d9d9;
+}
+
+.ptFieldTxt{
+	color: #333333;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	height: 50px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptFieldSex{
+	color: #333333;
+	font-family: Arial,sans-serif;
+	width: 80px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptBmonth{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptBday{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptByear{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	width: 60px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptAmPm{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	width: 70px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus { 
+    border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+    outline: none;
+}
+
+.formTable table, .formTable, .formTable td{
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	font-family: Arial,sans-serif;
+}
+
+.recHeader{
+	background-color: #f5f5f5;
+	font-size: 14px;
+}

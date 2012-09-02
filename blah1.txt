@@ -1,0 +1,47 @@
+<tr>
+					<td colspan="1" class="addHeader" valign="top"><label for="complaint">Chief Complaint:</label></td>
+					<td colspan="5" class="addField" valign="top">
+                    	<div class="patient-field">				
+							<textarea name="complaint" id="complaint" class="ptFieldTxt" style="width: 550px;"></textarea>
+						</div>
+                    </td>
+				</tr>
+				<tr>
+					<td colspan="1" class="addHeader" valign="top"><label for="remarks">Remarks:</label></td>
+					<td colspan="5" class="addField" valign="top">
+                    	<div class="patient-field">
+							<textarea name="remarks" id="remarks" class="ptFieldTxt" style="width: 550px;"></textarea>
+						</div>
+                    </td>
+				</tr>
+				<tr>
+					<td colspan="1" class="addHeader" valign="top"><label for="foradmission">Doctor:</label></td>
+					<td colspan="5" class="addField" valign="top">
+                    	<div class="patient-field" align="left" style="margin-left: 17px;">
+               				<select name="doctor" id="doctor" class="ptField">
+			                	<option value="">Select:</option>
+            			        <?php
+								$drList = getDoctors();
+								
+								foreach ($drList as $dr){
+								?>
+								<option value="<?php echo $dr["did"];?>">Dr. <?php echo $dr["firstname"];?> <?php echo $dr["lastname"];?>, <?php echo $dr["title"];?></option>
+								<?php
+								}
+								?>
+            			    </select>
+						</div>
+                    </td>
+				</tr>
+				<tr>
+					<td colspan="1" class="addHeader" valign="top"><label for="foradmission">For Admission:</label></td>
+					<td colspan="5" class="addField" valign="top">
+                    	<div class="patient-field" align="left" style="margin-left: 17px;">
+               				<select name="foradmission" id="foradmission">
+			                	<option value="">Select:</option>
+            			        <option value="Yes">Yes</option>
+			                    <option value="No" selected="selected">No</option>
+            			    </select>
+						</div>
+                    </td>
+				</tr>

@@ -1,0 +1,638 @@
+.admittedHolder{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+
+.admittedHolder a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+.admittedHolder a {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #3366cc;
+}
+.admittedHolder a:link {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+.admittedHolder a:hover {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #3366cc;
+}
+.admittedHolder a:active {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+
+/*Patient Information and Record*/
+#ptInfo, #refer-to-doc, #transfer-bed-holder, #discharge-pt-holder, #patient-surgery-holder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+#infoPtHolder, #refer-to-doc-wrapper, #transfer-bed-wrapper, #discharge-pt-wrapper, #patient-surgery-wrapper{
+	width: 650px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+#recPtHolder{
+	width: 650px;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.infoHolderLong, .infoHolder{ display: table; }
+
+.infoRow, .infoRowLong{ display: table-row; }
+
+div.long{
+	width: 531px;
+	border-right: 1px solid #ccc;
+}
+
+div.long-doc{
+	width: 531px;
+	border-right: 1px solid #ccc;
+}
+
+div.normal{ width: 99px; }
+
+div.dual{ width: 180px; }
+
+div.dual-border-right{width: 184px;border-right: 1px solid #ccc;}
+
+div.normal-border-right{
+	width: 99px;
+	border-right: 1px solid #ccc;
+}
+
+.titleCell{
+	font-family: Arial,sans-serif;
+	display: table-cell;
+	background-color: #f5f5f5;
+	color: #888888;
+	font-size: 14px;
+	text-align: right;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-right: none;
+	border-collapse: collapse;
+	width: 95px;
+}
+
+div.long-title{ width: 95px; }
+
+div.long-title-doc{ width: 95px; }
+
+div.dual-title{ width: 120px; }
+
+.contentCell{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	display: table-cell;
+	font-size: 13px;
+	text-align: left;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-right: none;
+	border-collapse: collapse;
+}
+.contentCell:hover{background: #ebeffa;}
+.infoRowLong:hover{background: #ebeffa;}
+.sel-refer{width: 400px;height: 25px;border: 1px solid #d9d9d9;}
+#buttonHolder{
+	width: 650px;
+	margin: auto;
+	text-align: right;
+	padding-top: 10px;
+}
+.bed-sel{width: 75px;height: 20px;border: 1px solid #d9d9d9;}
+
+/*Therapeutic Page*/
+#thera-holder{font-family: Arial,sans-serif;width: 90%;margin: auto;}
+
+#info-holder, #thera-injection, #thera-oral, #thera-treatment, #new-day-injection-form, #new-day-oral-form, #new-day-trt-form{display: table; margin:auto;}
+
+.thera-row{display: table-row;}
+
+div.thera-header-cell-name{width: 60px;}
+div.thera-header-cell-room{width: 90px;}
+div.thera-header-cell-hosno{width: 90px;}
+
+div.thera-content-cell-name{width: 270px;}
+div.thera-content-cell-room{width: 30px;}
+div.thera-content-cell-hosno{width: 80px; border-right:1px solid #ccc;}
+
+div.form-header-inj{width: 120px; font-size: 14px; color: #dd4b39; text-align: right; font-weight: bold;}
+
+#thera-sheet-holder, #new-day-form{width: 85%;margin: auto;}
+#data-injection-holder, #data-oral-holder, #data-treatment-holder{display: table; margin:auto;}
+.inj-row, .or-row, .trt-row{display: table-row;}
+
+div.thera-date-title{width: 700px; font-size: 14px; color: #dd4b39; text-align: left; font-weight: bold; border-top: 1px solid #ccc; border-right: 1px solid #ccc;}
+
+div.thera-inj-header-name{width: 200px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold;}
+div.thera-inj-header-shift{width: 120px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold;}
+div.thera-inj-header-given{width: 120px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold;}
+
+div.thera-inj-content-shift{padding: 0; border-bottom: none;}
+div.thera-inj-content-given{padding: 0; border-bottom: none;}
+
+div.thera-cont-shift{padding: 5px; border-bottom: 1px solid #ccc;}
+div.thera-cont-given{padding: 5px; border-bottom: 1px solid #ccc;}
+
+.inj-row:hover, .or-row:hover, .trt-row:hover, .thera-row:hover{background: #ebeffa;}
+.treatField{width: 180px;height: 20px;border: 1px solid #d9d9d9;}
+.shiftField{width: 110px;height: 20px;border: 1px solid #d9d9d9;}
+.giveField{width: 80px;height: 20px;border: 1px solid #d9d9d9;}
+/*Clinical Page*/
+#clinical-face-sheet-holder{
+	font-family: Arial,sans-serif;
+	width: 100%;
+	margin: auto;
+}
+
+#clinical-face-sheet-wrapper{
+	font-family: Arial,sans-serif;
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	border-top:1px solid #ccc;
+}
+
+.sheet-holder{display: table; border-right: 1px solid #ccc;}
+.clinical-row{display: table-row;}
+
+div.clinical-header-name{width: 210px; text-align: left;}
+div.clinical-header-birth{width: 140px; text-align: left;}
+div.clinical-header-place{width: 160px; text-align: left;}
+div.clinical-header-membership{width: 110px; text-align: left;}
+div.clinical-header-category{width: 105px; text-align: left;}
+
+div.clinical-header-address{width: 340px; text-align: left;}
+div.clinical-header-occupation{width: 145px; text-align: left;}
+div.clinical-header-telno{width: 130px; text-align: left;}
+div.clinical-header-sex{width: 120px; text-align: left;}
+
+div.clinical-header-age{width: 185px; text-align: left;}
+div.clinical-header-cs{width: 185px; text-align: left;}
+div.clinical-header-religion{width: 185px; text-align: left;}
+div.clinical-header-nationality{width: 181px; text-align: left;}
+
+div.clinical-header-kin{width: 300px; text-align: left;}
+div.clinical-header-relt{width: 150px; text-align: left;}
+div.clinical-header-kinadd{width: 297px; text-align: left;}
+
+div.clinical-header-dateadd{width: 160px; text-align: left;}
+div.clinical-header-timeadd{width: 130px; text-align: left;}
+div.clinical-header-datedis{width: 160px; text-align: left;}
+div.clinical-header-timedis{width: 130px; text-align: left;}
+div.clinical-header-hosdays{width: 145px; text-align: left;}
+
+div.clinical-header-serdept{width: 200px; text-align: left;}
+div.clinical-header-ward{width: 110px; text-align: left;}
+div.clinical-header-serdeptatt{width: 200px; text-align: left;}
+div.clinical-header-attphys{width: 225px; text-align: left;}
+
+div.clinical-header-addiagnosis{width: 310px; text-align: left;}
+div.clinical-header-disposition{width: 447px; text-align: left;}
+
+div.clinical-header-adphysician{width: 246px; text-align: left;}
+div.clinical-header-adclerk{width: 250px; text-align: left;}
+div.clinical-header-dispo{width: 250px; text-align: left;}
+
+div.clinical-header-finaldiag{width: 770px; text-align: left;}
+
+div.clinical-header-complications{width: 770px; text-align: left;}
+
+div.clinical-header-surgdone{width: 770px; text-align: left;}
+
+div.clinical-header-patreport{width: 770px; text-align: left;}
+
+div.clinical-header-ric{width: 246px; text-align: left;}
+div.clinical-header-medspec{width: 250px; text-align: left;}
+div.clinical-header-senreshead{width: 250px; text-align: left;}
+
+div.clinical-content-submit{width: 770px; text-align: right;}
+
+#disposition1, #disposition2{display: table-cell; width: 220px;}
+#disposition1 p, #disposition2 p{margin-top:5px;}
+.c-tarea{border: 1px solid #d9d9d9; font-family: Arial, sans-serif; color:#585858; font-size: 13px;}
+.c-text{height: 25px;border: 1px solid #d9d9d9;}
+
+/*History and Physical Page*/
+#hxHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+#hxInfoWrapper{
+	width: 100%;
+	margin: auto;
+	padding-top: 15px;
+}
+
+#hxRecWrapper{
+	width: 100%;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.hxHolder{
+	display: table;
+}
+
+.hxRow{display: table-row;}
+
+div.hx-cont-last{width: 105px;border-right: 1px solid #ccc;}
+div.hx-cont-name{width: 240px;}
+div.hx-cont-age, div.hx-cont-bn{width: 50px;}
+
+div.hx-title{width: 80px;}
+div.hx-title-rec{width: 690px; text-align: left; border-right: 1px solid #ccc;}
+div.hx-cont-rec{width: 690px; border-right: 1px solid #ccc;}
+
+#col1, #col2, #col3{display: table-cell; padding: 5px; width: 220px;}
+#fcol1, #fcol2{display: table-cell; padding: 5px; width: 220px;}
+
+.textField{width: 200px;height: 20px;border: 1px solid #d9d9d9;}
+.hrField{width: 150px;height: 25px;border: 1px solid #d9d9d9;}
+.bpField{width: 50px;height: 25px;border: 1px solid #d9d9d9;}
+.chckField{margin: 5px;}
+.txtField{font-family: Arial,sans-serif; font-size: 13px; width: 685px;height: 32px;border: 1px solid #d9d9d9;}
+.docField{width: 250px;height: 25px;border: 1px solid #d9d9d9;}
+/*Temperature Page*/
+/*Doc Orders Page*/
+#doc-holder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+#doc-order-holder, #row-holder, #form-doc-holder, #guide-order-holder{display: table; margin: auto; }
+
+.doc-row{display: table-row;}
+
+.doc-row:hover{background: #ebeffa;}
+
+div.doc-guide-opt{width: 155px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc; border-bottom: none;}
+
+div.doc-header-dt{width: 198px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.doc-header-order{width: 475px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.doc-header-opt{width: 20px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+
+div.doc-content-dt{text-align: center; width: 200px;}
+div.doc-content-order{width: 475px;}
+div.doc-content-opt{width: 20px;text-align: center;}
+div.doc-content-submit{width: 143px; border-right: 1px solid #ccc; text-align: center;}
+
+div.doc-form-dt{text-align: center; width: 400px;}
+div.doc-form-order{width: 470px;}
+
+.docOrdField{width: 430px;height: 25px;border: 1px solid #d9d9d9;}
+
+/*Progress Page*/
+#progHolder, #progNotesHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto;
+}
+
+#progWrapper{
+	width: 100%;
+	margin: auto;
+	padding-top: 15px;
+}
+
+#progWrappered, #progDataHolder{
+	width: 100%;
+	margin: auto;
+}
+
+.progInfoHolder, .progFormHolder{display: table; margin: auto; border-right: 1px solid #ccc;}
+
+#progNotesRow, #progFormRow{display: table-row;}
+
+.progRow:hover, #progFormRow:hover{background: #ebeffa;}
+
+div.prog-title-name{width: 50px; border-top: 1px solid #ccc;}
+div.prog-title-age{width: 40px; border-top: 1px solid #ccc;}
+div.prog-title-sex{width: 40px; border-top: 1px solid #ccc;}
+div.prog-title-cs{width: 80px; border-top: 1px solid #ccc;}
+
+div.prog-content-name{width: 191px; border-top: 1px solid #ccc;}
+div.prog-content-age{width: 71px; border-top: 1px solid #ccc;}
+div.prog-content-sex{width: 61px; border-top: 1px solid #ccc;}
+div.prog-content-cs{width: 80px; border-top: 1px solid #ccc;}
+
+div.prog-title-ward{width: 50px;}
+div.prog-title-bn{width: 70px;}
+div.prog-title-opd{width: 100px;}
+
+div.prog-content-ward{width: 137px;}
+div.prog-content-bn{width: 138px;}
+div.prog-content-opd{width: 140px;}
+
+div.prog-header-date{width: 120px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.prog-header-prognotes{width: 560px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+
+div.prog-content-date{width: 120px; text-align: center;}
+div.prog-content-prognotes{width: 560px; text-align: left;}
+
+div.prog-input-date{width: 120px; text-align: center;}
+div.prog-input-prognotes{width: 560px; text-align: left;}
+
+.progTextField{width: 390px;height: 25px;border: 1px solid #d9d9d9;}
+
+/*Nurse's Notes Page*/
+#notesInfoHolder, #nurseNotesHolder{
+	font-family: Arial,sans-serif;
+	width: 100%;
+	margin: auto;
+}
+
+#nursePtHolder{
+	width: 100%;
+	margin: auto;
+	padding-top: 15px;
+
+}
+
+#nurseFormHolder{
+	width: 100%;
+	margin: auto;
+}
+
+#info-notes-wrapper, #nurse-form-wrapper, #nurse-notes-wrapper{display: table; margin: auto; border-right: 1px solid #ccc;}
+
+.notesRow{display: table-row;}
+.notesRow:hover{background: #ebeffa;}
+
+div.notes-title-name{width: 40px; border-top: 1px solid #ccc;}
+div.notes-title-age{width: 30px; border-top: 1px solid #ccc;}
+div.notes-title-cs{width: 75px; border-top: 1px solid #ccc;}
+div.notes-title-ward{width: 30px; border-top: 1px solid #ccc;}
+div.notes-title-room{width: 10px; border-top: 1px solid #ccc;}
+
+div.notes-content-name{width: 210px; border-top: 1px solid #ccc;}
+div.notes-content-age{width: 80px; border-top: 1px solid #ccc;}
+div.notes-content-cs{width: 68px; border-top: 1px solid #ccc;}
+div.notes-content-ward{width: 60px; border-top: 1px solid #ccc;}
+div.notes-content-room{width: 20px; border-top: 1px solid #ccc; border-right: 1px solid #ccc;}
+
+div.notes-header-date{width: 120px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.notes-header-time{width: 60px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.notes-header-nurse{width: 120px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.notes-header-nursenotes{width: 435px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+
+div.notes-content-date{width: 120px; text-align: center;}
+div.notes-content-time{width: 60px; text-align: center;}
+div.notes-content-nurse{width: 120px; text-align: center;}
+div.notes-content-nursenotes{width: 435px; text-align: left;}
+
+div.notes-form-date{width: 120px; text-align: center;}
+div.notes-form-time{width: 60px; text-align: center;}
+div.notes-form-nurse{width: 120px; text-align: center;}
+div.notes-form-nursenotes{width: 435px; text-align: left;}
+
+.nurseNameField{width: 115px;height: 25px;border: 1px solid #d9d9d9;}
+.nurseField{width: 330px;height: 25px;border: 1px solid #d9d9d9;}
+/*IVF page*/
+#ivfHolder{
+	padding-top: 15px;
+	font-family: Arial,sans-serif;
+	width: 100%;
+	margin: auto;
+}
+
+#ivf-wrapper, #ivf-content-wrapper, #ivf-form-wrapper{
+	margin: auto;	
+	display: table;
+}
+.ivf-row{display: table-row;}
+.ivf-row:hover{background: #ebeffa;}
+
+div.ivf-title-dt{width: 80px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.ivf-title-sh{width: 105px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc}
+div.ivf-title-ts{width: 100px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.ivf-title-ivfbt{width: 250px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc;}
+div.ivf-title-dtc{width: 183px; font-size: 14px; color: #dd4b39; text-align: center; font-weight: bold; border-top: 1px solid #ccc; border-right: 1px solid #ccc;}
+
+div.ivf-cont-dt{width: 80px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-cont-sh{width: 105px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-cont-ts{width: 100px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-cont-ivfbt{width: 250px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-cont-dtc{width: 183px; font-size: 13px; color: #333; text-align: left; border-right: 1px solid #ccc;}
+
+div.ivf-form-dt{width: 80px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-form-sh{width: 105px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-form-ts{width: 100px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-form-ivfbt{width: 250px; font-size: 13px; color: #333; text-align: left;}
+div.ivf-form-dtc{width: 183px; font-size: 13px; color: #333; text-align: left; border-right: 1px solid #ccc;}
+
+.ivfselect{width: 105px;height: 25px;border: 1px solid #d9d9d9;}
+
+.ivfField{width: 245px;height: 25px;border: 1px solid #d9d9d9;}
+
+.timeField{width: 40px;height: 25px;border: 1px solid #d9d9d9;}
+
+.timeSlField{width: 50px;height: 25px;border: 1px solid #d9d9d9;}
+/*All*/
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus { 
+    border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+    outline: none;
+}
+
+div.curFocus {background: #ebeffa;}
+
+.del-link a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+.del-link  a {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #3366cc;
+}
+.del-link a:link {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+.del-link  a:hover {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #3366cc;
+}
+.del-link a:active {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+
+.greenbutton-inj, .greenbutton-or, .greenbutton-trt{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	background-color: #3c9200;
+	height: 30px;
+	border: 1px solid #29691d;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	cursor:pointer;
+}
+
+.greenbutton-inj:hover, .greenbutton-or:hover, .greenbutton-trt:hover{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	background-color: #3a8108;
+	height: 30px;
+	border: 1px solid #236017;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	cursor:pointer;
+}
+
+.greenbutton-inj-new, .greenbutton-or-new, .greenbutton-trt-new{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	background-color: #3c9200;
+	height: 30px;
+	border: 1px solid #29691d;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	cursor:pointer;
+}
+
+.greenbutton-inj-new:hover, .greenbutton-or-new:hover, .greenbutton-trt-new:hover{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	background-color: #3a8108;
+	height: 30px;
+	border: 1px solid #236017;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	cursor:pointer;
+}
+/*Pagination Therapeutic Page*/
+#pagination{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align:center;
+}
+
+#pagination a:hover{
+	text-decoration: none;
+}
+
+.numbers{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 2px 7px 2px 7px;
+	margin-right: 5px;
+}
+
+.numbers:hover{
+	background-color: #ebeffa;
+	border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+	color: #fff;
+	text-decoration: none;
+}
+
+.thisPage{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 2px 7px 2px 7px;
+	margin-right: 5px;
+	font-weight: bold;
+	background-color: #ebebeb;
+	
+}
+.next{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+.last{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+.previous{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.first{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+.next:hover, .previous:hover, .first:hover, .last:hover{
+	background-color: #f1f1f1;
+	color: #fff;
+	text-decoration: none;
+	border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+}
+.inactiveNext{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	color: #ccc;
+	margin-left: 15px;
+}
+
+.inactiveLast{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	color: #ccc;
+	margin-left: 5px;
+}
+
+.inactivePrev{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 20px;
+	color: #ccc;
+	text-align: center;
+}
+
+.inactiveFirst{
+	border: 1px solid #ccc;
+	padding: 2px 5px 2px 5px;
+	margin-right: 5px;
+	color: #ccc;
+	text-align: center;
+}
+
+.total{
+	padding-top: 10px;
+}

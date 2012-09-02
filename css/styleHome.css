@@ -1,0 +1,38 @@
+#homeContent{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+.welcome{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	font-size: 15px;
+}
+
+#menuCategory{
+	width: 70%;
+	padding-top: 10px;
+	margin: auto;
+}
+
+#menuCat{
+	margin-bottom: 10px;	
+}
+
+.menuTitle{
+	border: 1px solid #ccc;
+	padding: 5px 5px 5px 5px;	
+	background-color: #f5f5f5;
+	color: #3366cc;
+	font-size: 14px
+}
+
+.menuTitle:hover{
+	text-decoration: underline;
+}
+
+#catContent{
+	padding: 10px;
+	text-align: center;
+	display: none;
+}

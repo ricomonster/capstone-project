@@ -1,0 +1,90 @@
+<div class="admittedHolder">
+	<span class="pageTitle">History and Physical Examination</span>
+	<div id="hxHolder">
+	<br/>
+		<form id="testform">
+			<input type="checkbox" id="testbox1" name="testbox1" value="Test Box 1"/>Test Box 1<br/>
+			<input type="checkbox" id="testbox2" name="testbox2" value="Test Box 2"/>Test Box 2<br/>
+			<input type="checkbox" id="testbox3" name="testbox3" value="Test Box 3"/>Test Box 3<br/>
+			<input type="checkbox" id="testbox4" name="testbox4" value="Test Box 4"/>Test Box 4<br/>
+			<input type="submit" id="subTest" name="subTest" value="Submit"/>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+$('document').ready(function(){
+	$("#subTest").click(function(){
+			$('#waiting').slideDown(500);
+			$('#message').hide(0);
+			
+			if ($('#testbox1').attr('checked')){
+				var test1 = $('#testbox1').val();
+			}else{
+				var test1 = "empty"
+			}
+			
+			if ($('#testbox2').attr('checked')){
+				var test2 = $('#testbox2').val();
+			}else{
+				var test2 = "empty"
+			}
+			
+			if ($('#testbox3').attr('checked')){
+				var test3 = $('#testbox3').val();
+			}else{
+				var test3 = "empty"
+			}
+			
+			if ($('#testbox4').attr('checked')){
+				var test4 = $('#testbox4').val();
+			}else{
+				var test4 = "empty"
+			}
+		
+			$.ajax({
+				type : 'POST',
+				url : 'test.php',
+				dataType : 'json',
+				data: {
+					testbox1 : test1,
+					testbox2 : test2,
+					testbox3 : test3,
+					testbox4 : test4
+				},
+		
+				success : function(data){
+					$('#waiting').slideUp(500);
+					if (data.error === true){
+						$('#message').removeClass().addClass((data.error === true) ? 'error' : 'success').html(data.msg.join('<br />')).delay(550).slideDown(500);
+						$('#message').append(data);
+			
+						if (data.error === true){
+							$('#testform').show(500);
+						}else{
+							$(':input','#testform')
+							.not(':button, :submit, :reset, :hidden')
+							.val('');
+						}
+					}else{
+						$('#message').removeClass().addClass((data.error === true) ? 'error' : 'success').html(data.msg).delay(500).slideDown(500);
+			
+						if (data.error === true){
+							$('#testform').show(500);
+						}else{
+							$(':input','#testform')
+							.not(':button, :submit, :reset, :hidden')
+							.val('');
+						}	
+					}
+				},
+
+				error : function(XMLHttpRequest, textStatus, errorThrown) {
+					$('#waiting').fadeOut(500);
+					$('#message').removeClass().addClass('error').text('There was an error. Please try again later.').delay(500).fadeIn();
+				}
+			
+			});
+			return false;
+	});
+});
+</script>

@@ -1,0 +1,80 @@
+#deleteHolder{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+
+#deleteformHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	width: 90px;
+	float: left;
+	color: #888888;
+	text-align:right;
+	margin-right: 5px;
+	margin-left: 40px;
+}
+
+.info{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+#deleteformHolder{
+	font-family: Arial,sans-serif;
+	width: 60%;
+	margin: auto; 
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.infoTable table, .infoTable, .infoTable td{
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	padding: 10px 10px 10px 10px;
+	font-family: Arial,sans-serif;
+}
+
+.infoHeader{
+	background-color: #f5f5f5;
+	font-size: 14px;
+}
+
+.infoTable tr:hover {
+	background: #ebeffa;
+}
+
+/*Delete Record Page*/
+#deleteRecHolder{
+	font-family: Arial,sans-serif;
+	width: 80%;
+	margin: auto; 
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#deleteRecHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	float: right;
+	color: #888888;
+	text-align:right;
+	margin-right: 2px;
+}
+
+.recTable table, .recTable, .recTable td{
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	padding: 10px 10px 10px 10px;
+	font-family: Arial,sans-serif;
+}
+
+.recHeader{
+	background-color: #f5f5f5;
+	font-size: 14px;
+}
+
+td.recField:hover { background: #ebeffa;}

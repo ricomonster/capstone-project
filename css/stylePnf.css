@@ -1,0 +1,45 @@
+#pagenotfound{
+	margin: auto;
+	width: 600px;
+	padding: 20px 80px 10px 80px;
+}
+#pnfContent{
+	font-family: Arial,sans-serif;
+	margin-top: 10px;
+}
+
+.why{
+	font-size: 15px;
+	font-weight: bold;
+	color: #dd4b39;
+	margin-left: 25px;
+}
+
+#pnfContent a:visited {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}
+#pnfContent a {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #3366cc;
+}
+#pnfContent a:link {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+}
+#pnfContent a:hover {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	color: #3366cc;
+}
+#pnfContent a:active {
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3366cc;
+}

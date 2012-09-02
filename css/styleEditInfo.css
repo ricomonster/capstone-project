@@ -1,0 +1,93 @@
+#editHolder{
+	margin: auto;
+	width: 780px;
+	padding: 10px 60px 10px 60px;
+}
+
+#editformHolder{
+	font-family: Arial,sans-serif;
+	width: 90%;
+	margin: auto; 
+	position:relative;
+	margin-bottom: 20px;
+}
+
+#editformHolder label{
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	float: right;
+	color: #333333;
+	text-align:right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.tblEditInfo{
+	margin-top: 10px;
+}
+
+.tblEditInfo table, .tblEditInfo, .tblEditInfo td{
+	border-collapse:collapse;
+	text-align:center;
+	font-family: Arial,sans-serif;
+	border: 1px solid #ccc;
+}
+
+td.addField:hover{
+	background: #ebeffa;
+}
+
+.addHeader{
+	background-color: #f5f5f5;
+}	
+
+div.patient-field {
+	font-family: Arial,sans-serif;
+	padding: 5px;
+	position: relative;
+	overflow:hidden;
+}
+
+div.curFocus {
+	background: #ebeffa;
+}
+
+.ptField{
+	font-family: Arial,sans-serif;
+	width: 190px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptFieldSex{
+	font-family: Arial,sans-serif;
+	width: 80px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptBmonth{
+	font-family: Arial,sans-serif;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptBday{
+	font-family: Arial,sans-serif;
+	width: 50px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+.ptByear{
+	font-family: Arial,sans-serif;
+	width: 60px;
+	height: 25px;
+	border: 1px solid #d9d9d9;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus { 
+    border-color: #4d90fe #4d90fe #4d90fe #4d90fe;
+    outline: none;
+}
