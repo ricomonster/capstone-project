@@ -1,5 +1,7 @@
-#Capstone Project
+# Bacnotan District Hospital Information System (Capstone Project)
 
-this is my Capstone Project (thesis) during my undergrad. It's a Hospital Information System for my client, Bacnotan District Hospital.
+## What is Capstone Project?
 
-This consists patient admission in OPD or Emergency Room, patient admission for confinement, discharge and a simple Billing transaction consisting of the patient's consumption of the hospital resources, medicines and PhilHealth discounts are enabled in here.
+The Capstone Project is a two-semester process in which students pursue independent research on a question or problem of their choice, engage with the scholarly debates in the relevant disciplines, and - with the guidance of a faculty mentor - produce a substantial paper that reflects a deep understanding of the topic. 
+
+Students are strongly encouraged to choose a topic in which they have some competence based on their academic work, professional experience, or exploration of future career options. The Capstone Project is both a valuable intellectual experience and also a vehicle through which students can demonstrate their research, analytical, and writing skills to either prospective employers or graduate and professional schools.
