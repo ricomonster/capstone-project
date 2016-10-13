@@ -6,4 +6,4 @@ The Capstone Project is a two-semester process in which students pursue independ
 
 Students are strongly encouraged to choose a topic in which they have some competence based on their academic work, professional experience, or exploration of future career options. The Capstone Project is both a valuable intellectual experience and also a vehicle through which students can demonstrate their research, analytical, and writing skills to either prospective employers or graduate and professional schools. ([http://www.scps.virginia.edu/bachelor-of-interdisciplinary-studies/capstone](http://www.scps.virginia.edu/bachelor-of-interdisciplinary-studies/capstone))
 
-Trying out.
+Trying out. Added something
